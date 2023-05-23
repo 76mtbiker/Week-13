@@ -1,0 +1,77 @@
+/* nav {
+  width: 100vw;
+  background-color: lightblue;
+  color: blue;
+  font-size: 24px;
+  padding: 5px;
+}
+  
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: rgba(0,0,0,0.705)
+}
+nav ul li:active {
+  background-color:green;
+}
+.welcomeSection {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: yellow;
+  padding: 1em;
+} */
+
+.App {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  border: 10px solid purple;
+  padding: 20px;
+}
+
+.login-header {
+  border-bottom: 10px solid yellow;
+  padding-bottom: 10px;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.login-button {
+  background-color: hotpink;
+  color: aquamarine;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color:aquamarine;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
