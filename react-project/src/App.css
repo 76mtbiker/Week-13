@@ -38,11 +38,13 @@ nav ul li:active {
 
 .login-form {
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
+  max-width: fit-content;
   align-items: center;
-  margin-top: 150px;
-  border: 10px solid purple;
-  padding: 20px;
+  margin-top: 1em;
+  border: 1px solid purple;
+  padding: 15px;
 }
 
 .login-header {
